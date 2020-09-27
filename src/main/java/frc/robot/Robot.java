@@ -23,7 +23,8 @@ import edu.wpi.first.wpilibj.TimedRobot;
  * range from -1 to 1 making it easy to work together.
  */
 public class Robot extends TimedRobot {
-  private static final int kMotorPort = 11;
+  private static final int kMotorPort = 11
+  ;
   private static final int kJoystickPort = 0;
 
   private TalonFX talon0;
